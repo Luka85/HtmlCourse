@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, XML, Javascript" />
+    <meta name="author" content="John Doe" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .background {
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>codeSTACKr</title>
+  </head>
+  <body>
+    <!--Headings-->
+
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <hr />
+
+    <!-- Paragraphs -->
+    <div>
+      <p title="This is a tooltip">
+        Lorem ipsum dolor <strong>sit</strong> amet consectetur
+        <em>adipisicing</em> elit. Saepe impedit repellendus amet illum harum
+        nam, natus dolorum expedita tempora minima. Doloremque aliquid libero
+        consequatur impedit ea vel non explicabo distinctio.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet <mark>consectetur</mark> adipisicing elit.
+        Saepe impedit repellendus amet illum harum nam,
+        <small>natus</small> dolorum
+        <span style="color: red"
+          >expedita tempora minima. Doloremque aliquid</span
+        >
+        libero <del>consequatur</del> impedit ea vel non explicabo distinctio.
+      </p>
+      <p class="background">
+        Lorem ipsum dolor sit amet <ins>consectetur</ins> adipisicing elit.
+        Saepe impedit repellendus amet illum harum nam, natus dolorum
+        <sub>expedita</sub> tempora minima. Doloremque <sup>aliquid</sup> libero
+        consequatur impedit ea vel non explicabo distinctio.
+      </p>
+    </div>
+
+    <!-- Image and Bookmark -->
+    <a href="#bookmark"
+      ><img src="Banner.png" alt="alternate description here" width="400" />
+    </a>
+
+    <!-- List Examples -->
+
+    <ol type="1" start="25">
+      <ul>
+        <li>Sub Bullet Line 1</li>
+        <li>Sub Bullet Line 2</li>
+        <li>Sub Bullet Line 3</li>
+      </ul>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+      <li>List item 4</li>
+      <li>List item 5</li>
+    </ol>
+
+    <!-- Table Examples -->
+    <table>
+      <caption>
+        This is a caption
+      </caption>
+      <thead>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>35</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th colspan="2">Telephone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jill Smith</td>
+          <td>555-555-555</td>
+          <td>777-777-777</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <table>
+      <tr>
+        <th>Name:</th>
+        <td>Jill Smith</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Telephone:</th>
+        <td>555-555-555</td>
+      </tr>
+      <tr>
+        <td>777-777-777</td>
+      </tr>
+    </table>
+
+    <br />
+    <hr />
+    <br />
+
+    <!-- Form Example -->
+    <form action="server.php">
+      <fieldset>
+        <legend>Personal information</legend>
+        First Name: <br />
+        <input
+          type="text"
+          name="firstname"
+          placeholder="First Name Here"
+          id=""
+          value=""
+        />
+        <br />
+        LastName: <br />
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Last Name Here"
+          id=""
+          value=""
+        />
+        <br />
+        <input type="radio" name="options" id="" /> Option 1
+        <input type="radio" name="options" id="" /> Option 2 <br />
+        <input type="checkbox" name="checkboxes" id="" checked /> Checkbox 1
+        <input type="checkbox" name="checkboxes" id="" /> Checkbox 2
+        <input type="checkbox" name="checkboxes" id="" /> Checkbox 3 <br />
+        <label for="carSelect">Select:</label>
+        <select name="cars" id="carSelect" multiple>
+          <option value="BMW" selected>BMW</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Volvo">Volvo</option>
+          <option value="Toyota">Toyota</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="Submit" id="" />
+      </fieldset>
+    </form>
+
+    <!-- Button -->
+    <button>Click Me</button>
+
+    <!-- Bookmarked Paragraph -->
+    <p id="bookmark">This is a paragraph</p>
+  </body>
+</html>
